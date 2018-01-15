@@ -5,10 +5,13 @@
  */
 package echecgame;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author qsole
  */
 public class Plateau {
+    ArrayList listeCase;
     
 }
