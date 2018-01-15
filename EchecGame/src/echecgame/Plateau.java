@@ -12,10 +12,10 @@ import java.util.ArrayList;
  * @author qsole
  */
 public class Plateau {
-    private ArrayList listeCase;
+    private ArrayList<Case> listeCase;
     
     public Plateau(){
-        listeCase = new ArrayList();
+        listeCase = new ArrayList<Case>();
     }
     
     /**
@@ -31,5 +31,4 @@ public class Plateau {
     public void setListeCase(ArrayList listeCase) {
         this.listeCase = listeCase;
     }
-
 }
