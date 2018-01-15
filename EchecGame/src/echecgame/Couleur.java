@@ -10,10 +10,24 @@ package echecgame;
  * @author qsole
  */
 public class Couleur {
-    String nom;
+    private String nom;
     
     public Couleur(String n){
         nom = n;
+    }
+    
+    /**
+     * @return the nom
+     */
+    public String getNom() {
+        return nom;
+    }
+
+    /**
+     * @param nom the nom to set
+     */
+    public void setNom(String nom) {
+        this.nom = nom;
     }
     
     
