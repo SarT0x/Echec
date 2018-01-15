@@ -9,6 +9,12 @@ package echecgame;
  *
  * @author qsole
  */
-public class Affichage {
+public class Couleur {
+    String nom;
+    
+    public Couleur(String n){
+        nom = n;
+    }
+    
     
 }

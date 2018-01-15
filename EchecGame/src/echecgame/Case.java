@@ -10,5 +10,6 @@ package echecgame;
  * @author qsole
  */
 public class Case {
+    Couleur caseCouleur;
     
 }
