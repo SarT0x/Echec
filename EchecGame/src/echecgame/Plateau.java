@@ -12,6 +12,24 @@ import java.util.ArrayList;
  * @author qsole
  */
 public class Plateau {
-    ArrayList listeCase;
+    private ArrayList listeCase;
     
+    public Plateau(){
+        listeCase = new ArrayList();
+    }
+    
+    /**
+     * @return the listeCase
+     */
+    public ArrayList getListeCase() {
+        return listeCase;
+    }
+    
+    /**
+     * @param listeCase the listeCase to set
+     */
+    public void setListeCase(ArrayList listeCase) {
+        this.listeCase = listeCase;
+    }
+
 }

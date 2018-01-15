@@ -9,6 +9,16 @@ package echecgame;
  *
  * @author qsole
  */
-public class Piece {
+abstract class Piece {
     
+    protected String nom;
+    
+    abstract void couleur();
+    
+    
+    
+    public String toString(){
+        String str = "Je suis la piece " + this.nom;
+        return str;
+    }
 }
