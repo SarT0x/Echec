@@ -9,6 +9,18 @@ package Piece;
  *
  * @author qsole
  */
-public class Roi {
-    
+public class Roi extends Piece {
+    public Roi(int c){
+        super(c, "Roi", 6);
+    }
+
+    @Override
+    public boolean deplacementPossible(Case caseDepart, Case caseFinal) {
+        
+        
+        
+        
+        return false;
+        
+    }
 }

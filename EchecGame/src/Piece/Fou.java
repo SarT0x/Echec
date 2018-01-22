@@ -9,6 +9,18 @@ package Piece;
  *
  * @author qsole
  */
-public class Fou {
-    
+public class Fou extends Piece {
+    public Fou(int c){
+        super(c, "Fou", 3);
+    }
+
+    @Override
+    public boolean deplacementPossible(Case caseDepart, Case caseFinal) {
+        
+        
+        
+        
+        return false;
+        
+    }
 }

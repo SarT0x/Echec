@@ -9,6 +9,18 @@ package Piece;
  *
  * @author qsole
  */
-public class Tour {
-    
+public class Tour extends Piece {
+    public Tour(int c){
+        super(c, "Tour", 4);
+    }
+
+    @Override
+    public boolean deplacementPossible(Case caseDepart, Case caseFinal) {
+        
+        
+        
+        
+        return false;
+        
+    }
 }

@@ -9,6 +9,18 @@ package Piece;
  *
  * @author qsole
  */
-public class Pion {
-    
+public class Pion extends Piece {
+    public Pion(int c){
+        super(c, "Pion", 1);
+    }
+
+    @Override
+    public boolean deplacementPossible(Case caseDepart, Case caseFinal) {
+        
+        
+        
+        
+        return false;
+        
+    }
 }

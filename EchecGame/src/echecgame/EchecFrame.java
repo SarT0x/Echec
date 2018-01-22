@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
  * @author bgaudou
  */
 
-public class EchecFrame extends javax.swing.JFrame implements Observateur {
+public class EchecFrame extends javax.swing.JFrame{
 
     // Les trois images pour decorer les cases du jeu
     private static final ImageIcon iconeB = new ImageIcon("./src/icone/case_blanche.png");
@@ -56,6 +56,8 @@ public class EchecFrame extends javax.swing.JFrame implements Observateur {
                 }
             }
         }
+        
+        
         this.pack();
     }
 
@@ -73,24 +75,6 @@ public class EchecFrame extends javax.swing.JFrame implements Observateur {
             }
         }
         nextPlayer.setIcon(iconeN);
-    }
-    
-    
-    
-    
-    @Override
-    public void avertir(int i, int j) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void avertirNewGame() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void avertirFinPartie(boolean avecVainqueur) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     /**
      * This method is called from within the constructor to initialize the form.
