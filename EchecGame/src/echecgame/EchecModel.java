@@ -9,10 +9,6 @@ package echecgame;
  *
  * @author qsole
  */
-public interface Observateur {
-    
-    public void avertir(int i, int j);
-    public void avertirNewGame();
-    public void avertirFinPartie(boolean avecVainqueur);
+public class EchecModel {
     
 }
