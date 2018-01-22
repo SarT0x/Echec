@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author bgaudou
+ * @author qsole
  */
 
 public class EchecFrame extends javax.swing.JFrame{
@@ -33,6 +33,11 @@ public class EchecFrame extends javax.swing.JFrame{
     
     JLabel[][] jboard;
 
+    
+    
+    
+    
+    
     
     /**
      * Creates new form MorpionFrame
